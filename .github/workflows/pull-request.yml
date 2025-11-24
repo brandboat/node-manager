@@ -9,4 +9,5 @@ jobs:
     with:
       release-tag-name: pull-${{ github.event.number }}
       push: false
+      run-ci: true
     secrets: inherit

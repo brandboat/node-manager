@@ -12,4 +12,5 @@ jobs:
     with:
       release-tag-name: ${{ github.ref_name }}-head
       push: true
+      run-ci: true
     secrets: inherit
